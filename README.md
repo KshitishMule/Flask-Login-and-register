@@ -59,26 +59,26 @@ git clone https://github.com/KshitishMule/Flask-Login-and-register.git
 cd Flask-Login-and-register/Flask-Web-App-Tutorial-main
 
 
-2. Create Virtual Environment
+### 2. Create Virtual Environment
 bash
 Copy
 Edit
 python -m venv venv
 source venv/bin/activate      # On Windows: venv\Scripts\activate
 
-3. Install Dependencies
+### 3. Install Dependencies
 bash
 Copy
 Edit
 pip install -r requirements.txt
 
-4. Run the Application
+### 4. Run the Application
 bash
 Copy
 Edit
 python main.py
 
-🔐 Security Note
+### 🔐 Security Note
 This project is intended for educational purposes. For production, make sure to:
 
 Use environment variables for secrets and configs.
