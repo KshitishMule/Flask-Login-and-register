@@ -26,30 +26,28 @@ This is a beginner-friendly Flask web application that demonstrates how to imple
 ## 📁 Project Structure
 
 
-
 Flask-Web-App-Tutorial-main/
 │
-├── main.py                       # Main entry point to run the app
-├── requirements.txt              # List of Python dependencies
+├── main.py                       # Entry point that runs the Flask app
+├── requirements.txt              # Python dependencies list
 │
-├── website/                      # Application package
-│   ├── __init__.py               # Initializes Flask app and database
-│   ├── models.py                 # Database models (e.g., User model)
+├── website/                      # Main Flask application package
+│   │
+│   ├── __init__.py               # Initializes Flask app, DB, login manager
+│   ├── models.py                 # SQLAlchemy models (User class)
 │   ├── auth.py                   # Authentication routes (login, signup, logout)
-│   ├── views.py                  # Main (non-auth) routes
+│   ├── views.py                  # Non-auth routes (home/dashboard)
 │
-│   ├── static/                   # Static files (CSS, JS, images)
-│   │   └── style.css             # Example custom stylesheet
+│   ├── static/                   # Static files (CSS, JavaScript, images)
+│   │   └── style.css             # Custom styles
 │
-│   ├── templates/                # HTML templates
-│   │   ├── base.html             # Base layout
-│   │   ├── home.html             # Homepage after login
-│   │   ├── login.html            # Login form page
-│   │   └── signup.html           # Signup form page
+│   ├── templates/                # Jinja2 templates (HTML files)
+│   │   ├── base.html             # Base layout used by all pages
+│   │   ├── home.html             # Homepage (dashboard)
+│   │   ├── login.html            # Login form
+│   │   └── signup.html           # Signup form
 │
-└── venv/                         # Virtual environment (excluded from Git)
-
-
+└── venv/                         # Virtual environment (not pushed to GitHub)
 
 
 
