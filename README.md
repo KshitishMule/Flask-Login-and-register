@@ -25,6 +25,8 @@ This is a beginner-friendly Flask web application that demonstrates how to imple
 
 ## 📁 Project Structure
 
+
+
 Flask-Web-App-Tutorial-main/
 │
 ├── main.py                       # Main entry point to run the app
@@ -46,6 +48,8 @@ Flask-Web-App-Tutorial-main/
 │   │   └── signup.html           # Signup form page
 │
 └── venv/                         # Virtual environment (excluded from Git)
+
+
 
 
 
