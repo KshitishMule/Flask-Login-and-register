@@ -55,7 +55,6 @@ Follow these steps to run the project locally:
 
 ### 1. Clone the Repository
 
-```bash
 git clone https://github.com/KshitishMule/Flask-Login-and-register.git
 cd Flask-Login-and-register/Flask-Web-App-Tutorial-main
 
