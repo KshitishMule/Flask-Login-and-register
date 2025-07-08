@@ -25,14 +25,13 @@ This is a beginner-friendly Flask web application that demonstrates how to imple
 
 ## 📁 Project Structure
 
-
+```
 Flask-Web-App-Tutorial-main/
 │
 ├── main.py                       # Entry point that runs the Flask app
 ├── requirements.txt              # Python dependencies list
 │
 ├── website/                      # Main Flask application package
-│   │
 │   ├── __init__.py               # Initializes Flask app, DB, login manager
 │   ├── models.py                 # SQLAlchemy models (User class)
 │   ├── auth.py                   # Authentication routes (login, signup, logout)
@@ -48,6 +47,7 @@ Flask-Web-App-Tutorial-main/
 │   │   └── signup.html           # Signup form
 │
 └── venv/                         # Virtual environment (not pushed to GitHub)
+```
 
 
 
